@@ -1,8 +1,7 @@
-const express = require('express');
-const { resolve } = require('path');
-const { info } = require('log-symbols');
-
-const { routes: dataRouter } = require('./routes/data');
+import express from 'express';
+import { info } from 'log-symbols';
+import { resolve } from 'path';
+import { routes as dataRouter } from './routes/data';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
