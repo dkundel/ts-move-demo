@@ -13,5 +13,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "log-symbols": "^3.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
   }
 }
